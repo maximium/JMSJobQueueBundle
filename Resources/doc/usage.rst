@@ -101,4 +101,4 @@ If you would like to prioritize certain jobs in the same queue, you can set a pr
     $em->persist($job);
     $em->flush();
 
-The priority is a simple integer - the higher the number, the sooner a job is executed.
+The priority is a simple integer - the lower the number, the sooner a job is executed.
